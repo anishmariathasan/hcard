@@ -7,7 +7,7 @@ This Android application is designed to control a foot cuff used to treat oedema
 - **Emergency Stop**: Instantly stops the inflation/deflation process and deflates the cuff to baseline (no inflation) when needed.
 - **Manual Inflate/Deflate Buttons**: Allows the user to override the automatic inflation/deflation process with manual control for inflating or deflating the cuff as necessary.
 - **Inflation/Deflation Control**: The app allows the user to inflate or deflate the foot cuff based on the strain reading to maintain optimal comfort and prevent swelling.
-- **Progress Bar (1-10)**: The app displays a progress bar from 1 to 10 to show the current inflation/deflation state of the cuff. The color of the bar changes as the cuff inflates or deflates, providing a visual representation of the status.
+- **Progress Bar (0-100)**: The app displays a progress bar from 1 to 10 to show the current inflation/deflation state of the cuff. The fill of the bar changes as the cuff inflates or deflates, providing a visual representation of the status.
 - **BLE Connectivity**: The app connects to a **Seeed XIAO ESP32S3 microcontroller** over BLE to control the inflation and deflation of the cuff in real-time, adjusting the pressure based on strain readings.
 - **Cuff Pressure Monitoring**: The app monitors the foot cuff’s pressure, ensuring that it inflates when the foot starts swelling and deflates when pressure decreases.
 - **Login Functionality**: Users can log in, input biometrics (weight, height, age, gender), and save this information.
